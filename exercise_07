@@ -1,0 +1,8 @@
+"""
+Extract extension from file name
+"""
+
+file_name = input('Enter file name: ')
+file_extension = file_name.strip().split('.')
+
+print(f'{file_name} extension is : {repr(file_extension[-1])}')
