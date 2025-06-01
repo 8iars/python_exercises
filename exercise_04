@@ -1,0 +1,19 @@
+"""
+Calculate area of the circle
+"""
+from math import pi
+
+radius = input("Enter radius of the circle: ")
+radius = float(radius);
+print(f'Area of the circle with raidus {radius}: {pi*radius*radius}')
+
+"""
+2025-May-31 22:42:03+0530
+
+When converting string to float exception can happen
+Put the conversion in try-catch block
+See what kind of exception could happen
+Read the debug information when exception occured
+
+ValueError occured when float() was converting radius of value non-numerical
+"""

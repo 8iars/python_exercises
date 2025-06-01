@@ -1,0 +1,20 @@
+"""
+Read comma separated numbers from the user and generate a list and a tuple
+3,5,32,9
+[3,5,32,9]
+(3,5,32,9)
+"""
+
+values = input('Enter comma separated values: ')
+
+a_list = values.split(',')
+a_tuple = tuple(a_list)
+
+print(f'List is: {a_list}')
+print(f'Tuple is: {a_tuple}')
+
+"""
+Is there another way to create tuple?
+What if you enter only one value and comma is in the tuple?
+(3,)
+"""
