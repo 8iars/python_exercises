@@ -1,0 +1,6 @@
+"""
+Display a sample examination schedule
+"""
+
+exam_schedule_date = (11,12,2014)
+print(f'Examination will start from: {exam_schedule_date[0]}/{exam_schedule_date[1]}/{exam_schedule_date[2]}')
